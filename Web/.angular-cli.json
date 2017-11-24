@@ -1,0 +1,50 @@
+{
+  "project": {
+    "name": "CodeTalk",
+    "ejected": true
+  },
+  "apps": [
+    {
+      "root": "src",
+      "outDir": "dist",
+      "assets": [
+        "..static"
+      ],
+      "index": "../index.html",
+      "main": "main.ts",
+      "polyfills": "polyfills.ts",
+      "test": "test.ts",
+      "tsconfig": "../config/tsconfig.app.json",
+      "testTsconfig": "../config/test/tsconfig.test.json",
+      "prefix": "app"
+    }
+  ],
+  "e2e": {
+    "protractor": {
+      "config": "./config/test/protractor.conf.js"
+    }
+  },
+  "lint": [
+    {
+      "project": "config/tsconfig.app.json",
+      "exclude": "**/node_modules/**"
+    },
+    {
+      "project": "config/test/tsconfig.test.json",
+      "exclude": "**/node_modules/**"
+    },
+    {
+      "project": "e2e/tsconfig.e2e.json",
+      "exclude": "**/node_modules/**"
+    }
+  ],
+  "test": {
+    "karma": {
+      "config": "config/test/karma.conf.js"
+    }
+  },
+  "defaults": {
+    "styleExt": "scss",
+    "component": {}
+  }
+}

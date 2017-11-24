@@ -1,0 +1,32 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "alwaysStrict": true,
+    "declaration": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "lib": [
+      "es2015",
+      "dom"
+    ],
+    "listEmittedFiles": true,
+    "listFiles": true,
+    "module": "es2015",
+    "moduleResolution": "node",
+    "newLine": "lf",
+    "noEmitHelpers": true,
+    "noEmitOnError": true,
+    "outDir": "../dist/static",
+    "pretty": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "target": "es5",
+    "typeRoots": [
+      "../node_modules/@types"
+    ]
+  },
+  "angularCompilerOptions": {
+    "skipMetadataEmit": true
+  }
+}
